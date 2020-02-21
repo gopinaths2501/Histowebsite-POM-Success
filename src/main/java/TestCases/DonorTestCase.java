@@ -14,11 +14,12 @@ public class DonorTestCase extends HistoWebsiteCommon{
 	@Test
 	
 	public void RunTestCase () throws InterruptedException, IOException {
+	
+		 
+		new LoginPage()
 		
-		 new LoginPage()
-		 
-		 .RunLoginPage();
-		 
+		.RunLoginPage();
+		
 		 new DonorPage()
 		 
 		 .DonorPageDetails();
